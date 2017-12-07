@@ -4,7 +4,7 @@ Pushd "%~dp0"
 
 make html
 
-ghp-import build\html -m "updated doc webpage on gh-pages branch" -p   
+ghp-import build\html -m "updated doc webpage on gh-pages branch"  
 
 
 git add --all

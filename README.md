@@ -1,5 +1,7 @@
 # Sphinx Example and Cheat Sheet
 
+Neals fork to figure out how the heck to use sphinx
+
 A simple example and cheat sheet for using Sphinx to document small Python modules.
 
 reStructured Text cheat sheet: [https://davidstutz.github.io/sphinx-example/#index](https://davidstutz.github.io/sphinx-example/#index)
@@ -41,7 +43,7 @@ Then the modules can be automatically documented using:
 For modules or dependencies not supporting Python 3, `docs/Makefile` can ba adapted:
 
     SPHINXBUILD   = python -c "import sys,sphinx;sys.exit(sphinx.main(sys.argv))"
-    
+
 ## License
 
 BSD 3-Clause License
